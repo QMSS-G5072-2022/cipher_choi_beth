@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cipher_sc4297"
+version = "0.1.0"
+description = "QMSS G5072 Homework 7 Python Package; contains the Caesar cipher, an encryption technique"
+authors = ["Beth Choi"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
